@@ -98,9 +98,9 @@ nav a {
 }
 
 .titleParagraph {
-    margin: 20px 0;
+    margin: 20px 2% 20px;
     padding-bottom: 20px;
-    border-bottom: 1px dashed black;
+
 }
 
 .top-content {
@@ -119,14 +119,22 @@ nav a {
 
 /* middle section */
 
-.row {
+.rowTop {
     display: flex;
     justify-content: space-around;
-    /* margin: 20px 0; */
+    border-top: 1px dashed black;
+    padding-top: 10px;
     
 }
 
-.row div {
+.rowBottom {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    
+}
+
+.rowBottom div, .rowTop div {
     margin-top: 20px;
     margin-bottom: 40px;
     border-bottom: 1px dashed black;
@@ -217,6 +225,10 @@ button {
     background: dodgerblue;
 }
 
+.bottom-content-about {
+    margin: 0 5% 40px;
+
+}
 
 .bottom-content {
     display: flex;
