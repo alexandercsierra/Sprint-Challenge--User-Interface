@@ -94,7 +94,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: #303030;
+    color: black;
 }
 
 .titleParagraph {
@@ -141,7 +141,7 @@ nav a {
     width: 45%;
 }
 
-.row div img {
+.rowTop div img, .rowBottom div img {
     margin-bottom: 15px;
 }
 
@@ -151,6 +151,7 @@ button {
     border-radius: 8px;
     border: 2px solid black;
     background: white;
+    font-size: 16px;
 
 }
 
