@@ -119,6 +119,19 @@ nav a {
 
 /* middle section */
 
+form {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 2%;
+}
+
+input, textarea {
+    border-radius: 5px;
+    margin: 5px 0 25px;
+    border: solid 2px black;
+}
+
 .rowTop {
     display: flex;
     justify-content: space-around;
