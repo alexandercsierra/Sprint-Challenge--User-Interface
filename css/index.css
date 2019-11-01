@@ -124,6 +124,14 @@ form {
     flex-direction: column;
     align-items: flex-start;
     margin-left: 2%;
+    margin-bottom: 40px;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    padding: 40px 0;
+}
+
+form span {
+    color: red;
 }
 
 input, textarea {
@@ -168,9 +176,6 @@ button {
 
 }
 
-.aboutMiddleContent {
-    /* margin-bottom: 0px; */
-}
 
 .middle-content {
     margin-bottom: 20px;
@@ -191,7 +196,6 @@ button {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -239,8 +243,15 @@ button {
     background: dodgerblue;
 }
 
+/* bottom of page */
+
 .bottom-content-about {
     margin: 0 5% 40px;
+
+}
+
+.bottom-content-contact {
+    margin: 0 2% 40px;
 
 }
 
